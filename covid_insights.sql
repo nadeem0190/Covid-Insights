@@ -2,8 +2,7 @@
 
 SELECT * 
 FROM coviddeaths
-WHERE continent IS NOT NULL
-ORDER BY 3, 4
+ORDER BY 3, 4;
 
 
 -- Getting started with data
@@ -173,4 +172,4 @@ WHERE d.continent IS NOT NULL
 ORDER BY 2, 3;
 
 
-SELECT * FROM PercentPopulationVaccinated
+SELECT * FROM PercentPopulationVaccinated;
